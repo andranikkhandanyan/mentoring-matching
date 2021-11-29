@@ -1,0 +1,4 @@
+name,field_name,diff,score,operation_type
+Same division,division,0,30,EQUALS
+Age peers,age,5,30,LTE
+Same timezone,timezoneOffset,0,40,EQUALS
