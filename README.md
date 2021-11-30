@@ -28,8 +28,8 @@ You can test an application using the [Swagger](http://18.185.249.241/swagger-ui
 ### To get pairing score
 First get available [configuration templates](http://18.185.249.241/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/matcher-config-template-controller/getAll)
 
-Then, using this config, [upload a csv file](http://18.185.249.241/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/employee-controller/uploadFile) and as a response
-there available are all available pairings and of course top match !
+Then, using received data, [upload a csv file](http://18.185.249.241/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/employee-controller/uploadFile). An application
+should respond with all available pairings and of course with top match !
 
 Here is a simple config for matchers
 ```
